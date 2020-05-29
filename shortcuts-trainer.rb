@@ -17,8 +17,8 @@ def markcorrect(answer)
 		answer.push(Date.today)
 		answer.push(1)
 	else
-		answer[2] = Date.today + answer[3]
-		answer[3] = answer[3] * 2
+		answer[2] = Date.today + answer[3].to_i
+		answer[3] = answer[3].to_i * 2
 	end
 	return answer.join("||")
 end
@@ -65,8 +65,9 @@ $dueshortcuts.map! do |item|
 		markincorrect(current)
 	end
 end
-puts $notdueshortcuts.class
 puts "All finished"
 puts "It took #{(Time.now - timestart).to_i} seconds."
-puts "#{(correct*100/total)}% correct"
+if total != 0
+	puts "#{(correct*100/total)}% correct"
+end
 close

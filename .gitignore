@@ -9,6 +9,7 @@ vendor
 Gemfile.lock
 coverage
 
+myshortcuts
 cards
 cardsbak
 scratch.rb

@@ -1,6 +1,212 @@
-question 2? ||answer||2020-05-30||2
-question 4? ||answer||2020-05-30||2
-question 3? ||answer||2020-05-30||2
-question 5? ||answer||2020-05-30||2
-question 6? ||answer||2020-05-30||2
-question 1? ||answer||2020-05-30||2
+Doom Work - Jump to Process|| jz
+Org - Copy current title without leading ***|| dt||2021-01-09||2
+Doom - Add current line to register 'a'|| da
+Terminal - start vim, but send straight to the background||vim &||2021-01-09||2
+i3 - Focus Messages tab ||S-m||2021-01-09||2
+Doom - Switch to Dotfiles workspace|| rf
+Zathura - Fit Page Width||s||2021-01-09||2
+Doom Work - Jump to Home Office|| jy||2021-01-09||2
+Doom - Paste register 'a' || dv||2021-01-09||2
+Doom - Create register a and copy current line to it || dc||2021-01-09||2
+i3 - Focus Email tab ||S-i||2021-01-09||2
+i3 - Focus Calendar tab ||S-c||2021-01-09||2
+Doom - "Go to end of current list"|| v-
+# Doom - View previous subtree || ak||2020-12-12||128
+# Doom - Create new directory || ef
+# Doom - Jump to Restrictive Practices || jt||2021-01-03||128
+# Doom - Org jump to last refiled item || juur||2020-07-23||8
+Dired - Go to parent directory||-||2021-01-26||64
+Doom - Magit push||Pu||2021-02-09||64
+# Doom - Jump to Assessment || ja||2021-01-03||128
+Gmail - Expand entire conversation||;||2021-01-10||4
+Doom - Magit unstage currently selected change||u||2021-01-26||64
+# Doom - Next workspace || rl||2020-11-02||4
+# Doom - Jump to, from list of recently clocked items || luj||2020-12-02||64
+Zathura - Top of current page ||H||2021-01-18||32
+# Doom - Open Dotfiles || ed||2020-12-12||128
+Doom - Toggle read only on this buffer || tr||2021-02-07||128
+# Doom - Clock in from the stop time of last task || luuui||2020-08-20||64
+Dired - Create directory||+||2021-01-10||4
+# Doom - View next subtree || aj
+# Doom - Jump to Client to sort || jc||2020-11-10||64
+# Dired - Open Dired in current fulder|| o-||2020-11-01||2
+Doom Work - Jump to Other|| jh||2021-01-10||4
+# Vim - Paste from register a||"ap||2020-12-02||64
+Dired - Refresh current display||r||2021-01-10||4
+# Doom - Open Magit || gg||2020-10-13||8
+Doom - Add folder to projectile projects || pa||2021-03-07||128
+Doom - Delete current subtree ||daR||2021-01-26||64
+Doom - Reload Config File || ar||2021-05-16||256
+Doom - Cycle to do status || mt||2021-02-09||64
+# Dired - Copy current filename||Y
+Doom Work - Jump to Supervision|| jn||2021-01-10||4
+Gmail - report as spam||!||2021-01-10||4
+# Doom - "Move to next internet link" || vi||2020-10-13||8
+# Doom - Magit pull -r||Fu
+# Doom - Go to @Out || jo||2020-07-21||4
+# Doom - Toggle line numbers || tl||2020-07-27||16
+# Doom - "Move to previous internet link" || vI||2020-08-20||64
+# Doom - "Next visible heading" || vj||2020-07-27||16
+Doom Work - Jump to Finances|| jf||2021-01-10||4
+# Doom - File to @Out || jO||2020-08-04||32
+# Doom - "Open link" || vo||2020-12-02||64
+# Doom - Kill this buffer || aw||2021-01-03||128
+# Doom - Open file from current project ||  ||2020-12-02||64
+# Doom - Open HTPC Config || eh||2020-07-21||4
+# Doom - Shift workspace right|| r>
+# Doom - Go to last change||g;||2020-08-04||32
+# Doom - Go to @Brainy || jb||2020-12-12||128
+Terminal - Background current process ||C-z||2021-02-09||64
+Doom - "Go to end of the current heading's subtree" || vs||2021-01-10||4
+# Doom - Comment current line||gcc||2020-12-02||64
+# Doom - Magit stage all changes||S||2020-10-13||8
+# Doom - Open casenotes.org || ec||2020-08-20||64
+Zathura - Fit Page Height||a||2021-01-10||4
+Vim - see list of all registers||:reg||2021-02-09||64
+Gmail - Add CC Recipient ||C-C||2021-01-10||4
+Doom Work - Jump to Governance|| jg||2021-01-10||4
+# Doom - Open scratch.org || es||2020-08-20||64
+Doom - Open file sidebar|| op||2021-01-12||8
+# Doom - Go to current clocked item || lj||2020-11-08||16
+Doom - delete around this indentation level ||dai||2021-01-10||16
+# Doom - Open active-clients.org || ea||2020-12-12||128
+# Dired - Toggle marks||t
+#  ||r
+# Doom - Org Clock Cancel || lq||2020-08-20||64
+Doom - delete inside this indentation level ||dii||2021-02-07||128
+# Doom - File to @In Progress || jI||2021-01-03||128
+Doom - Org jump to Transfer to work/home|| jw||2021-01-12||8
+Zathura - Zoom in ||+||2021-01-26||64
+Zathura - Open file ||o||2021-02-09||64
+Qutebrowser - save link as ||;d||2021-01-16||128
+# Vim - Copy to register a||"ay
+Doom - Org jump to @Open Referrals|| jo||2021-01-10||4
+Terminal alias for ps -aux | grep ||ct||2021-01-16||16
+Doom - Open .doom.d folder || e.||2021-01-10||4
+# Doom - Org Clock In || li||2020-08-20||64
+# Doom - org-capture|| nn||2020-08-04||32
+# Doom - Jump to Introduction || jm||2021-01-06||64
+# Dired - Toggle full file information||(
+Zathura - Link Hints||f||2021-02-09||64
+# Dired - Unmark current file/directory||u||2020-11-28||4
+# Doom - Go to @In Progress || ji||2020-12-12||128
+# Doom - Comment current and next line||gcj||2020-08-04||32
+# Doom - Move focus to bottom window || wj||2020-11-16||32
+# Doom - Org Clock Display || ld||2020-12-12||128
+Doom - Widen Subtree || ab||2021-01-10||4
+# Doom - File to @Easy || jE||2020-08-20||64
+# Doom - Org Refile || jr||2020-07-21||4
+# Doom - File to @Brainy || jB||2020-08-20||64
+Terminal (fish) Foreground job 1 ||fg %1||2021-01-12||8
+Gmail - Reply all||a||2021-01-10||4
+# Doom - Clock In Misc || lm||2020-12-12||128
+Doom - Org jump to @Billing|| jc||2021-01-12||8
+# Dired - Mark all directories||*/
+Terminal - exit current terminal||C-d||2021-02-09||64
+Zathura - Rotate View||r||2021-02-09||64
+# Dired - Remove all marks in current folder||U
+Doom - Switch to Main workspace|| rm||2021-01-10||16
+Doom - Evil Easy Motion lines below this point ||gsj||2021-02-07||128
+# Doom - Toggle flycheck || tf||2020-11-10||64
+# Doom - Evil Easy Motion Jump to character 'g' backward ||gsFg||2020-10-09||1
+# Dired - Toggle sort by name/date modified||o
+# Doom - Toggle list item as checkbox || mx||2020-07-21||4
+# Doom - Shift workspace left|| r<||2020-10-11||4
+# Doom - Shift workspace right|| r>||2020-11-02||4
+# Doom - "Move to parent subheading" || vu||2020-07-23||32
+# Doom - Close current window|| wd
+Doom - Narrow Subtree || an||2021-01-10||4
+# Doom - Next Buffer || al||2020-12-12||128
+Doom - Open a new temporary scratch buffer|| wn||2021-02-09||64
+Doom - Create new window to the right of current window|| wv||2021-01-10||4
+Doom - Insert active time stamp|| mdt||2021-01-10||4
+# Doom - Display workspaces|| rr||2020-10-13||8
+Dired - Rename/move current file||R||2021-01-10||4
+# Doom - "Forward subheading same level" || vl
+# Doom - Evil Easy Motion Jump to character 'g' forward ||gsfg||2020-10-25||32
+# Dired - Change owner of the current file||O||2020-11-30||8
+# Doom - set mark 'a' so it will persist across buffers||mA||2020-10-25||32
+# Doom - Jump to first subheading in the current subtree || vT||2020-11-04||8
+Doom - Select current subtree ||vaR||2021-02-09||64
+# Doom - Agenda - choose date to display ||gd||2020-10-10||2
+# Doom - Narrow to subtree || msn||2020-07-27||16
+# Doom - Open inactive-clients.org || ei||2020-12-12||128
+# Doom - Open X360 Config || ex||2020-11-04||8
+# Doom - Join current line and the next ||U
+# Vim - From insert mode, go to normal for one motion||C-o||2020-07-21||4
+# Doom - Evil Easy Motion words forward on this line ||gsw
+# Doom - Clock In Lunch || ll||2020-08-20||64
+# Doom - "View entire subtree" || vv||2020-07-27||16
+Doom - View history of log messages || he||2021-01-10||4
+Gmail - Collapse entire conversation||:||2021-01-10||4
+# Doom - File to @Active || jA||2020-12-12||128
+# Doom - Jump to Formulation || jo||2021-04-25||256
+# Dired - Touch current file||T
+# Doom - Jump to Skill-building || js||2020-12-20||4
+# Doom - Previous Buffer || ah||2020-08-20||64
+Shell - perform 'command' and display the time it takes||time command||2021-01-10||16
+# Doom - Go to @Easy || je||2020-12-12||128
+# Qutebrowser - Save current tabs to 'stash'||:w
+Zathura - Reset Zoom ||=||2021-01-10||4
+# Doom - Jump to Functional Behavioural Assessment || jf
+# Doom - Open non-client.org || en||2020-08-20||64
+# Dired - Mark current file/directory||m||2020-12-04||16
+Gmail - Discard draft ||C-D||2021-01-10||4
+# Doom - Open list of projects || pp
+Doom Work - Jump to Marketing|| jm||2021-01-10||4
+Gmail - Forward ||f||2021-01-10||4
+# Doom - Jump to Behaviour Decription || jd||2021-04-25||256
+Doom - Insert inactive time stamp|| mdT||2021-03-07||128
+# Doom - "Go to end of current tree" || vt||2020-11-10||64
+Dired - Modify file permissions||M||2021-02-09||64
+# Doom - Toggle line wrapping || tw||2020-10-13||8
+# Doom - Previous workspace|| rh||2020-07-20||2
+# Vim - Add to register a||"Ay||2020-07-27||16
+Doom Work - Jump to PD|| jp||2021-01-10||4
+Doom Work - Jump to IT|| jd||2021-01-10||4
+Doom - Run terminal command || et||2021-02-09||64
+# Doom - File to Client to sort || jC
+# Doom - Go to Clock Reports || jv||2020-08-04||32
+Doom - Focus first workspace|| r0||2021-02-09||64
+# Doom - Jump to Non-client to sort || jz||2020-07-27||16
+# Doom - Jump to Reinforcement || jn
+# Dired - Execute deletion||x
+# Doom - Jump to Preventative || jp||2021-04-25||256
+# Doom - File to @Temp || jT||2020-12-12||128
+Qutebrowser - Open all tabs saved in 'stash'||:o stash||2021-03-13||128
+Terminal - list all backgrounded jobs||jobs||2021-01-18||32
+# Doom - Go to @Temp || jt||2020-11-16||32
+# Doom - Jump to Response Strategies || je||2021-04-25||256
+Doom - Org open subtree in indirect buffer and narrow subtree|| mn||2021-01-12||8
+# Doom - "Previous visible heading" || vk||2020-08-20||64
+# Doom - Jump to regular || jl||2020-08-20||64
+Dired - Select file/folder for deletion||d||2021-01-10||4
+# Doom - Org Clock In House Chores || lh||2020-07-27||16
+Emacs - display list of recent commands ||C-h l||2021-01-16||16
+# Doom - Org Refile Jump || jj||2020-08-20||64
+# Doom - Org Clock Out || lo||2020-12-12||128
+Doom - Create new window underneath current window|| ws||2021-01-12||8
+# Doom - Close workspace|| rd||2020-07-20||2
+# Doom - New workspace|| rn
+# Doom - Magit stage currently selected change||s||2020-10-13||8
+Doom - Copy current subtree ||yaR||2021-02-07||128
+# Doom - Go to @Active || ja||2021-01-03||128
+Doom - Reverse go to last change||g,||2021-02-09||64
+Doom - Open scripts folder || er||2021-01-10||4
+# Doom - Move focus to top window || wk||2020-10-25||32
+Doom - Show all buffers || as||2021-01-10||4
+Zathura - Bottom of current page ||L||2021-01-18||32
+Zathura - Zoom Out ||-||2021-02-09||64
+# Doom - M-x execute command || :||2020-08-20||64
+Doom - Save all buffers || bS||2021-01-18||32
+# Doom - Evil Easy Motion words backwards on this line ||gsb||2020-11-10||64
+# Doom - Widen subtree || msN||2020-07-23||8
+# Doom - Kill all other buffers || au||2021-01-03||128
+Doom - Evil Easy Motion lines above this point ||gsk||2021-01-16||128
+# Doom - Toggle window 'enlargening|| wo||2020-11-10||64
+Doom - Auto Indent whole buffer|| ai||2021-01-10||4
+# Doom - Jump to last captured item|| jk||2020-08-20||64
+# Doom - "Backward subheading same level" || vh||2020-08-04||32
+# Doom - Clock in from list of recently clocked items || lui||2020-11-08||16
+# Doom - Clock In Email || le||2020-12-12||128
+# Doom - Open Private Emacs Config || ep||2020-07-21||4

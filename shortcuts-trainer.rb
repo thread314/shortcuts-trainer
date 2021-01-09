@@ -4,14 +4,24 @@ shortcuts = File.read("cards").split("\n").shuffle
 timestart = Time.now
 correct = 0
 
-# Save today's progress and close the app
-def close
-	puts "Goodbye"
-	writetofile = ($dueshortcuts+$notdueshortcuts).join("\n")
-	File.open("cards", 'w') { |file| file.write(writetofile) }
+#Quit and save 
+def quitdrilling
+	quitanswer = ""
+	until quitanswer == "y" || quitanswer == "n"
+		puts "Finished for today. Would you like to save today's session to file? (y/n)"
+		quitanswer = gets.chomp
+		case quitanswer
+		when "y"
+			puts "Goodbye"
+			writetofile = ($dueshortcuts+$notdueshortcuts).join("\n")
+			File.open("cards", 'w') { |file| file.write(writetofile) }
+		when "n"
+			puts "This session will not be saved to file. Goodbye"
+		end
+	end
 end
 
-#Update a correct answer
+#Mark a correct answer
 def markcorrect(answer)
 	if !answer[2]
 		answer.push(Date.today)
@@ -23,9 +33,16 @@ def markcorrect(answer)
 	return answer.join("||")
 end
 
-#Update an incorrect answer
+#Mark an incorrect answer
 def markincorrect(answer)
+	puts "#{answer[0]}||#{answer[1]}"
 	return "#{answer[0]}||#{answer[1]}"
+end
+
+#Remove a shortcut from future testing
+def removeshortcut(answer)
+	puts "# #{answer[0]}||#{answer[1]}"
+	return "# #{answer[0]}||#{answer[1]}"
 end
 
 #Filter for all cards that are not due
@@ -33,7 +50,9 @@ $dueshortcuts = []
 $notdueshortcuts = []
 shortcuts.each do |i|
 	current = i.split("||")
-	if !current[2] || DateTime.parse(current[2]).to_date <= Date.today
+	if current[0].to_s[0] == "#"
+		$notdueshortcuts.push(i)
+	elsif !current[2] || DateTime.parse(current[2]).to_date <= Date.today 
 		$dueshortcuts.push(i)
 	else
 		$notdueshortcuts.push(i)
@@ -41,6 +60,7 @@ shortcuts.each do |i|
 end
 
 #Start drilling today's cards
+
 remaining = $dueshortcuts.count
 total = remaining
 $dueshortcuts.map! do |item|
@@ -52,8 +72,10 @@ $dueshortcuts.map! do |item|
 	remaining -= 1
 	if useranswer == "exit"
 		puts "user ended"
-		close
 		break
+	elsif useranswer == "remove"
+		puts "that shortcut has been commented out"
+		removeshortcut(current)
 	elsif answer == useranswer
 		puts "#{(correct*100/total)}% correct"
 		puts "\e[32mCorrect!\e[0m"
@@ -65,9 +87,11 @@ $dueshortcuts.map! do |item|
 		markincorrect(current)
 	end
 end
+
+quitdrilling
 puts "All finished"
 puts "It took #{(Time.now - timestart).to_i} seconds."
 if total != 0
 	puts "#{(correct*100/total)}% correct"
 end
-close
+
